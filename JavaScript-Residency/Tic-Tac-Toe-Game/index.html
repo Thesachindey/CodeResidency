@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1  class="navItem Gname"><svg width="40" height="40" viewBox="0 0 111 134" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M13.7354 32.5602C5.90582 35.6368 -2.13024e-06 44.1433 -1.77177e-06 52.344L-5.45525e-07 80.3973C-1.23246e-07 90.0579 8.09552 95.3561 17.3189 91.7318L97.2646 60.3172C105.094 57.2405 111 48.7341 111 40.5333L111 12.4801C111 2.81945 102.904 -2.47874 93.6811 1.14556L13.7354 32.5602Z" fill="#FFC300"/>
+            <path d="M13.7354 100.637C5.90582 97.517 -1.95658e-06 88.8914 -2.32007e-06 80.5759L-3.45991e-06 54.4993C-3.95719e-06 43.1228 5.59428 34.1041 14.7781 30.6753L24.1304 27.1834C17.4465 28.0617 18.5671 38.6903 25.6614 41.7046L99.6552 73.1437C106.162 75.9085 111 83.1184 111 90.0513L111 120.998C111 130.794 102.904 136.166 93.6811 132.491L13.7354 100.637Z" fill="#8759F2"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.9477 29.4499C18.1969 32.7576 20.0756 39.8458 25.6818 42.2127L81.6545 65.8447L17.3326 90.8598C8.10195 94.4497 -1.22075e-07 89.2019 -5.40341e-07 79.6331L-1.61985e-06 54.9367C-1.86725e-06 49.2769 1.40114 44.204 3.95224 40.1203C6.40814 36.6289 9.83771 33.7706 13.7463 32.2505L20.9477 29.4499Z" fill="#FF3E80"/>
+            </svg>
+            Tic Tac Toe</h1>
+        <a class="navItem" href="#">Home</a>
+        <a class="navItem" href="#">Play</a>
+        <a class="navItem" href="#">About</a>
+        <a class="navItem" href="#">Contact</a>
+    </nav>
+    <main>
+        <h1 id="x">Lets start..!</h1>
+        <div class="msg-container hide">
+            <p id="msg">Winner</p>
+            <button id="new-btn">New Game
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.5528 6.77639L1.15777 0.578885C0.62585 0.312925 0 0.699722 0 1.29443V12.7056C0 13.3003 0.62585 13.6871 1.15777 13.4211L13.5528 7.22361C13.737 7.13148 13.737 6.86852 13.5528 6.77639Z" fill="#33363F"/>
+                    </svg>
+                     </button>
+        </div>
+        <div class="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+
+        <div id="cntlBtn">
+            <button class="rstBtn">Reset Game
+                <svg width="24" height="24"viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 20L17.2929 20.7071L18 21.4142L18.7071 20.7071L18 20ZM13 4C12.4477 4 12 4.44771 12 5C12 5.55229 12.4477 6 13 6L13 4ZM13.2929 16.7071L17.2929 20.7071L18.7071 19.2929L14.7071 15.2929L13.2929 16.7071ZM18.7071 20.7071L22.7071 16.7071L21.2929 15.2929L17.2929 19.2929L18.7071 20.7071ZM19 20L19 9L17 9L17 20L19 20ZM14 4L13 4L13 6L14 6L14 4ZM19 9C19 6.23858 16.7614 4 14 4L14 6C15.6569 6 17 7.34315 17 9L19 9Z" fill="#33363F"/>
+                    <path d="M6 4L6.70711 3.29289L6 2.58579L5.29289 3.29289L6 4ZM11 20C11.5523 20 12 19.5523 12 19C12 18.4477 11.5523 18 11 18L11 20ZM10.7071 7.29289L6.70711 3.29289L5.29289 4.70711L9.29289 8.70711L10.7071 7.29289ZM5.29289 3.29289L1.29289 7.29289L2.70711 8.70711L6.70711 4.70711L5.29289 3.29289ZM5 4L5 15L7 15L7 4L5 4ZM10 20L11 20L11 18L10 18L10 20ZM5 15C5 17.7614 7.23858 20 10 20L10 18C8.34315 18 7 16.6569 7 15L5 15Z" fill="#33363F"/>
+                    </svg>
+                    
+            </button>
+        </div>
+        </main>
+    <script src="app.js"></script>
+</body>
+
+</html>

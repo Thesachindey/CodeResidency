@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* styles.css */
+.navbar {
+    background-color:rgba(192, 192, 192, 0.089);
+    color: #fff;
+    display: flex;
+   align-items:center ;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.Gname{
+    cursor: pointer;
+    color: rgb(69, 69, 255);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+main #x{
+   font-family: sans-serif;
+   color: rgb(255, 255, 255);
+  text-shadow:0 0 1rem rgba(169, 176, 212, 0.801); 
+  padding-top: 1.5rem;
+}
+
+/* Add more styling as needed */
+
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    background-color: white;
+    color: black;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.801);
+    font-size: 10vmin;
+    cursor: pointer;
+}
+#cntlBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rstBtn{
+    gap: 5px;
+    padding: 1rem;
+    height: 5vmin;
+    width: 25vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.801);
+    font-size: 2vmin;
+    font-weight: 900;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+
+}
+.rstBtn:hover{
+    background-color: black;
+    color: white;   
+}
+/* .icon{
+    box-shadow: 0 0 1rem rgb(255, 255, 255);
+
+} */
+ .msg-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10vmin;
+    flex-direction: column;
+    height: 100vmin;
+ }
+#new-btn{
+    gap: 5px;
+    padding: 1rem;
+    height: 5vmin;
+    width: 25vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.801);
+    font-size: 2vmin;
+    font-weight: 900;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+#new-btn:hover{
+    background-color: black;
+    color: white; 
+}
+
+#msg{
+    font-size: 10vmin;
+}
+.hide{
+    display: none;
+}
