@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+:root{
+    --navcolor:rgb(19, 19, 19);
+    --navfont:white;
+    --hoverbg: rgb(9, 255, 0);
+    --bg:linear-gradient(45deg,white,#FFD700 );
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: var(--bg);
+    /* background: linear-gradient(45deg,rgb(165, 97, 255),rgb(255, 58, 133),rgb(50, 248, 255)
+,rgb(100, 100, 247),rgb(174, 0, 255)
+
+    ); */
+}
+h1 {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+ 
+    background-color:var(--navcolor);
+    color: var(--navfont);
+    font-weight: 600;
+    height: 5rem;
+    line-height: 5rem;
+    
+}
+
+    
+img{
+    height: 154px;
+    width: 154px;
+    border-radius: 50%;
+   object-fit: cover;  
+}
+.choices{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: var(--hoverbg) ;
+}
+.choice{
+    height:164px;
+    width: 164px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn button{
+    height: 5rem;
+    width: 100%;
+    display: inline;
+    margin-top: 3rem;
+    border: none;
+    background-color:transparent;
+    box-shadow: 2px 2px 2px  rgba(255, 255, 255, 0.582);
+    color: black;
+    font-weight: 900;
+    font-size: 2rem;
+    font-family: "PT Sans", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  
+    
+}
+
+.score-bord{
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 2rem;
+margin-top: 3rem;
+gap: 5rem;
+
+}
+.count{
+font-size: 3rem;
+color: rgb(255, 255, 255);
+}
+.you{
+    color:black;
+}
+.comp{
+    color:black;
+}
