@@ -52,4 +52,4 @@
 ## 1. YouTube tailwind playlist - codeWithHarry
 ## 2. - Procoder BD
 # By - https://github.com/Thesachindey/
-## linkedin - https://linkedin.com/thesachindey/
+## linkedin - https://www.linkedin.com/in/itssachindey/
